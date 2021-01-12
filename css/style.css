@@ -1,0 +1,66 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	background-color: #f4f4f4;
+	font-family: arial;
+	font-size: 15px;
+	line-height: 1.5em;
+
+}
+#container{
+	background-color: #333333;
+	margin:50px auto;
+	overflow: auto;
+	width: 40%;
+	min-height: 630px;
+}
+header h1{
+	color: #ffffff;
+	font-size: 22px;
+	padding:15px 0px 10px 10px;
+	border-bottom: 1px solid #ddd;
+}
+#shouts{
+	width: 90%;
+	height: 400px;
+	background:#f4f4f4;
+	overflow: auto;
+	margin: 20px auto; 
+}
+.shout{
+	list-style: none;
+	border-bottom: 1px solid #ddd;
+	padding: 8px 0px;
+}
+.shout span{
+	color: #aaaaaa;
+}
+#input{
+	width: 90%;
+	min-height: 80px;
+	margin: auto;
+	padding: 0px;
+}
+#input input[type='text']{
+	height: 25px;
+	width: 48%;
+	padding:3px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #666;
+}
+#input .shout{
+	width: 100%;
+	margin-bottom: 30px;
+	margin: 10px auto;
+	padding: 5px;
+	background-color: red;
+	color: #fff;
+}
+.error{
+	color: #fff;
+	background-color: Red;
+	padding: 5px;
+	margin-bottom: 10px;
+}
